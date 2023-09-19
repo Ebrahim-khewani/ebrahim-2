@@ -1,0 +1,124 @@
+/* @import url('(https://fonts.google.com/specimen/Poppins'); */
+
+body {
+    font-family: 'Poppins';
+}
+p{
+    font-size: 16px;
+    /* Font size: 16px*/
+    /* - Weights: 400, 500, 600, 700 */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+.main{
+    gap: 5px;
+    display: flex;
+    background-image: url("/images/bg-intro-desktop.png");
+    margin-top: 100px;
+    background-color: rgb(255 121 120);;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: royalblue; */
+}
+
+:root {
+--color-light-red: rgba(255, 0, 0, 1);
+--color-light-green: rgba(51, 204, 51, 1);
+--color-light-blue: rgba(0, 119, 255, 1);
+--color-dark-blue: rgba(17, 34, 68, 1);
+--color-Grayish-red: rgba(196, 204, 217, 1);
+}
+
+.main .left{
+    /* background-color: aqua; */
+    height: 400px;
+}
+main .right
+{
+    /* background-color: red; */
+}
+.main .space-l
+{
+  width: 15%;
+    /* background-color: rgb(228, 83, 0); */
+}
+
+.main .space-r
+{
+    width: 15%;  
+    /* background-color: rgb(51, 255, 0); */
+}
+
+.left-h1
+{
+ margin-top: 150px;
+ font-size: xx-large;
+}
+
+.name
+{
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 9px;
+}
+.button {
+    font-size:16px;
+    font-family:Arial;
+    width:186px;
+    height: 36px;
+    color: white;
+    border-radius: 5%;
+    background-color: rgb(69 227 159);
+    border: 0 var(--color-light-green);
+    /* background-color:var(--color-light-green) */
+  
+                
+}
+
+.button:hover {
+    background: linear-gradient( #1be6b0, #1be6b0);
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 300px;
+    gap: 10px;
+    border-radius: 17px;
+  }
+  .h6
+  {
+    color: black;
+    font-size: 3px;
+    padding-left: 12px;
+    font-weight: 100;
+  }
+  .h6-r{
+    color: white;
+    background-color:rgb(115 115 193);
+    height: 30px;
+    align-content: center;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+  .h6-r .span-r
+  {
+    color: aliceblue;
+  }
